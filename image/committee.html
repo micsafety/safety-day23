@@ -1,0 +1,468 @@
+<html lang = "en">
+    <head>
+        <meta charset = 'UTF-8'>
+        <meta name = 'viewport' content = 'width = device-width , initial-scale = 1.0'>
+        <title>Safety Day 2023</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+
+        <link rel="stylesheet" href="about.css"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css"> 
+
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.3.0/mdb.min.js"></script>       
+        <!---
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/3bae4f1c54.js" crossorigin="anonymous"></script>
+        -->
+
+        <style>
+          .change {
+            position: relative;
+            display: inline-block;
+          }
+          
+          .hover-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+          
+          .change:hover .hover-image {
+            opacity: 1;
+          }
+          
+          .original-image {
+            display: block;
+            max-width: 100%;
+            height: auto;
+          }
+          </style>
+
+
+
+      </head>
+
+    <body>
+      <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+              data-mdb-target="#navbarExample01" aria-controls="navbarExample01" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarExample01">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="itinerary.html">Itinerary</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link"aria-current="page" href="committee.html">Committee</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdownMenuLink"
+                    role="button"
+                    data-mdb-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Game
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li>
+                      <a class="dropdown-item" href="safetycents.html">Safety Cents</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Game 2</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Game 3</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      
+        <!-- Background image -->
+        <div class="p-5 text-center bg-image" style="
+            background-image: url('sd-b.jpg');
+            background-position: center center;
+            background-size: cover;
+            height: 100vh; width:100vw;
+          ">
+          <div class="mask" style="background-color: rgba(0, 0, 0, 0.4);">
+            <div class="d-flex justify-content-center align-items-center h-100">
+              <div class="text-white">
+                <h1 class="mb-3">Heading</h1>
+                <h4 class="mb-3">Subheading</h4>
+                <a class="btn btn-outline-light btn-lg" href="#!" role="button">Call to action</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      
+
+
+      
+
+      <!-- Management Team -->
+      <div class="container my-5 d-flex justify-content-center align-items-center">
+        <div class="row d-flex justify-content-center align-items-center">
+          <h1 class="topic mx-auto mt-5 mb-2 d-flex justify-content-center align-items-center fw-bold">Department Safety & Health Policy</h1>
+          <p class="topic mx-auto my-5 d-flex text-center">The Department of Microbiology and Immunology at the National University of Singapore conducts teaching and research on microbiology-related topics. 
+              Safety is therefore paramount in our day-to-day activities. In line with Singapore’s Workplace Safety and Health Act, 
+              the Department is committed to providing a safe and healthy environment for all staff and students.</p>
+
+          <h1 class="topic mx-auto my-5 d-flex justify-content-center align-items-center fw-bold">Management</h1>
+          <div class="col-md-4 col-lg-4 col-xl-4 my-3">
+            <div class="change">
+              <img src="prof-tan.jpg" alt="Original Image" class="original-image img-fluid">
+              <img src="prof-tan2.JPG" alt="Hover Image" class="hover-image img-fluid">
+            </div>
+            <div class="info mt-3 fw-bold text-center">
+              <p>A/P Kevin Tan Shyong Wei<br>Safety Chairperson</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-4 col-xl-4 my-3">
+            <div class="change">
+              <img src="prof-pablo.jpg" alt="Original Image" class="original-image">
+              <img src="prof-pablo.jpeg" alt="Hover Image" class="hover-image">
+            </div>
+            <div class="info mt-3 fw-bold text-center">
+              <p>A/P Pablo Bifani<br>Safety Coordinator</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-4 col-xl-4 my-3">
+            <div class="change">
+              <img src="fatimah.jpg" alt="Original Image" class="original-image">
+              <img src="fatimah2.jpg" alt="Hover Image" class="hover-image">
+            </div>
+            <div class="info mt-3 fw-bold text-center">
+              <p>Fatimah Bte Mustafa<br>Deputy Safety Coordinator</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Biological Safety Team -->
+      <div class="container mx-auto my-5 d-flex justify-content-center align-items-center">
+        <div class="row">
+          <h1 class="topic mx-auto my-5 d-flex justify-content-center align-items-center fw-bold">Biological Safety Team</h1>
+          <div class="col-md-4 col-lg-4 col-xl-4 my-3">
+            <div class="change">
+              <img src="prof-chu1.jpg" alt="Original Image" class="original-image">
+              <img src="prof-chu2.jpg" alt="Hover Image" class="hover-image">
+            </div>
+            <div class="info mt-3 fw-bold text-center">
+              <p>A/P Chu Jang Hann<br>Deputy Chairperson</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-4 col-xl-4 my-3">
+            <div class="change">
+              <img src="fatimah.jpg" alt="Original Image" class="original-image">
+              <img src="fatimah2.jpg" alt="Hover Image" class="hover-image">
+            </div>
+            <div class="info mt-3 fw-bold text-center">
+              <p>Fatimah Bte Mustafa<br>Leader</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-4 col-xl-4 my-3">
+            <div class="change">
+              <img src="june.jpg" alt="Original Image" class="original-image">
+              <img src="june2.jpg" alt="Hover Image" class="hover-image">
+            </div>
+            <div class="info mt-3 fw-bold text-center">
+              <p>Koh Guat Nee, June<br>Deputy Leader</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-4 col-xl-4 my-3">
+            <div class="change">
+              <img src="geokchoo.jpg" alt="Original Image" class="original-image">
+              <img src="geok-choo2.jpg" alt="Hover Image" class="hover-image">
+            </div>
+            <div class="info mt-3 fw-bold text-center">
+              <p>Ng Geok Choo<br>Member</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-4 col-xl-4 my-3">
+            <div class="change">
+              <img src="kellylau.jpg" alt="Original Image" class="original-image">
+              <img src="kellylau2.JPG" alt="Hover Image" class="hover-image">
+            </div>
+            <div class="info mt-3 fw-bold text-center">
+              <p>Lau Suk Hiang, Kelly<br>Member</p>
+            </div>
+          </div>          
+        </div>
+      </div>
+
+      <!-- Chemical Safety Team -->
+      <div class="container mx-auto my-5 d-flex justify-content-center align-items-center">
+        <div class="row">
+          <h1 class="topic mx-auto my-5 d-flex justify-content-center align-items-center fw-bold">Chemical Safety Team</h1>
+          <div class="col-md-4 col-lg-4 col-xl-4 my-3">
+            <div class="change">
+              <img src="volker-patzel.jpg" alt="Original Image" class="original-image">
+              <img src="volker-patzel2.jpg" alt="Hover Image" class="hover-image">
+            </div>
+            <div class="info mt-3 fw-bold text-center">
+              <p>Dr. Volker Patzel<br>Deputy Chairperson</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-4 col-xl-4 my-3">
+            <div class="change">
+              <img src="seah.jpg" alt="Original Image" class="original-image">
+              <img src="seah3.jpg" alt="Hover Image" class="hover-image">
+            </div>
+            <div class="info mt-3 fw-bold text-center">
+              <p>Seah Keng Ing<br>Leader</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-4 col-xl-4 my-3">
+            <div class="change">
+              <img src="fatin.jpg" alt="Original Image" class="original-image">
+              <img src="fatin2.JPG" alt="Hover Image" class="hover-image">
+            </div>
+            <div class="info mt-3 fw-bold text-center">
+              <p>Fatin Nadhirah Bte Ismail<br>Deputy Leader</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-4 col-xl-4 my-3">
+            <div class="change">
+              <img src="vanessa.jpg" alt="Original Image" class="original-image">
+              <img src="vanessa2.jpg" alt="Hover Image" class="hover-image">
+            </div>
+            <div class="info mt-3 fw-bold text-center">
+              <p>Lim Peiwen, Vanessa Anne<br>Member</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-4 col-xl-4 my-3">
+            <div class="change">
+              <img src="kelly-ng.jpg" alt="Original Image" class="original-image">
+              <img src="prof-pablo.jpg" alt="Hover Image" class="hover-image">
+            </div>
+            <div class="info mt-3 fw-bold text-center">
+              <p>Ng Kai Lin, Kelly<br>Member</p>
+            </div>
+          </div> 
+
+          <div class="col-md-4 col-lg-4 col-xl-4 my-3">
+            <div class="change">
+              <img src="rachel.jpg" alt="Original Image" class="original-image">
+              <img src="rachel2.jpg" alt="Hover Image" class="hover-image">
+            </div>
+            <div class="info mt-3 fw-bold text-center">
+              <p>Loh Pei She, Rachel<br>Member</p>
+            </div>
+          </div>          
+
+        </div>
+      </div>
+
+      <!-- Fire Safety Team -->
+      <div class="container mx-auto my-5 d-flex justify-content-center align-items-center">
+        <div class="row">
+          <h1 class="topic mx-auto my-5 d-flex justify-content-center align-items-center fw-bold">Fire Safety Team</h1>
+          <div class="col-md-4 col-lg-4 col-xl-4 my-3">
+            <div class="change">
+              <img src="jun-hong.jpg" alt="Original Image" class="original-image">
+              <img src="prof-chu2.jpg" alt="Hover Image" class="hover-image">
+            </div>
+            <div class="info mt-3 fw-bold text-center">
+              <p>Dr. Ch'ng Jun Hong<br>Deputy Chairperson</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-4 col-xl-4 my-3">
+            <div class="change">
+              <img src="benson.jpg" alt="Original Image" class="original-image">
+              <img src="benson2.jpg" alt="Hover Image" class="hover-image">
+            </div>
+            <div class="info mt-3 fw-bold text-center">
+              <p>Chua Yen Leong, Benson<br>Leader</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-4 col-xl-4 my-3">
+            <div class="change">
+              <img src="nazmi.jpg" alt="Original Image" class="original-image">
+              <img src="prof-pablo.jpg" alt="Hover Image" class="hover-image">
+            </div>
+            <div class="info mt-3 fw-bold text-center">
+              <p>Nazmi Bin Nazir<br>Deputy Leader</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-4 col-xl-4 my-3">
+            <div class="change">
+              <img src="Kenneth.jpg" alt="Original Image" class="original-image">
+              <img src="kenneth2.jpg" alt="Hover Image" class="hover-image">
+            </div>
+            <div class="info mt-3 fw-bold text-center">
+              <p>Chen Yuanxiang, Kenneth<br>Member</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- General Safety, Health and Wellness Safety Team -->
+      <div class="container mx-auto my-5 d-flex justify-content-center align-items-center">
+        <div class="row">
+          <h1 class="topic mx-auto my-5 d-flex justify-content-center align-items-center fw-bold">General Safety, Health & Wellness Team</h1>
+          <div class="col-md-4 col-lg-4 col-xl-4 my-3">
+            <div class="change">
+              <img src="john-chen.jpg" alt="Original Image" class="original-image">
+              <img src="john-chen2.jpg" alt="Hover Image" class="hover-image">
+            </div>
+            <div class="info mt-3 fw-bold text-center">
+              <p>Dr. John Chen Yu Shen<br>Deputy Chairperson</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-4 col-xl-4 my-3">
+            <div class="change">
+              <img src="mayling.jpg" alt="Original Image" class="original-image">
+              <img src="may-ling2.jpg" alt="Hover Image" class="hover-image">
+            </div>
+            <div class="info mt-3 fw-bold text-center">
+              <p>Leong May Ling<br>Leader</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-4 col-xl-4 my-3">
+            <div class="change">
+              <img src="jen.jpg" alt="Original Image" class="original-image">
+              <img src="prof-pablo.jpg" alt="Hover Image" class="hover-image">
+            </div>
+            <div class="info mt-3 fw-bold text-center">
+              <p>Tan Shih Jen<br>Deputy Leader</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-4 col-xl-4 my-3">
+            <div class="change">
+              <img src="huimin.jpg" alt="Original Image" class="original-image">
+              <img src="huimin2.jpg" alt="Hover Image" class="hover-image">
+            </div>
+            <div class="info mt-3 fw-bold text-center">
+              <p>Dr. Yeo Huimin<br>Member</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-4 col-xl-4 my-3">
+            <div class="change">
+              <img src="jenny.jpg" alt="Original Image" class="original-image">
+              <img src="prof-pablo.jpg" alt="Hover Image" class="hover-image">
+            </div>
+            <div class="info mt-3 fw-bold text-center">
+              <p>Jenny Low<br>Member</p>
+            </div>
+          </div>          
+        </div>
+      </div>
+      
+
+
+        <!-- Footer -->
+        <footer class="text-center text-lg-start bg-dark text-muted">
+          <!-- Section: Social media -->
+          <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+            <!-- Left -->
+            <div class="me-5 d-none d-lg-block">
+              <span>Get connected with us on social networks:</span>
+            </div>
+
+            <!-- Right -->
+            <div>
+              <a href="https://www.linkedin.com/company/nus-microbiology-immunology/?originalSubdomain=sg" class="me-4 link-secondary" style="text-decoration: none;">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="https://www.facebook.com/nusmicroimmuno/" class="me-4 link-secondary" style="text-decoration: none;">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="https://www.instagram.com/nusmicroimmuno/" class="me-4 link-secondary" style="text-decoration: none;">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="https://twitter.com/nusmicroimmuno?lang=en" class="me-4 link-secondary" style="text-decoration: none;">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://www.youtube.com/channel/UCbfjL8loTKj0_ikamBdhKMw" class="me-4 link-secondary" style="text-decoration: none;">
+                <i class="fab fa-youtube"></i>
+              </a>
+              <a href="https://medicine.nus.edu.sg/mbio/" class="me-4 link-secondary" style="text-decoration: none;">
+                <i class="fas fa-globe"></i>
+              </a>
+            </div>
+          </section>
+
+
+          <!-- Section: Links  -->
+          <section class="">
+            <div class="container text-center text-md-start mt-5">
+              <!-- Grid row -->
+              <div class="row mt-3">
+                <!-- Grid column -->
+                <div class="col-md-8 col-lg-8 col-xl-8 mx-auto mb-4">
+                  <!-- Content -->
+                  <h6 class="text-uppercase fw-bold mb-4">
+                    <i class="fas fa-landmark me-3 text-secondary"></i>Department of Microbiology & Immunology
+                  </h6>
+                  <p>
+                    National University of Singapore <br>
+                    Yong Loo Lin School of Medicine <br>
+                    Department of Microbiology & Immunology <br>
+                    MD4, 5 Science Drive 2 <br>
+                    117545 Singapore
+                  </p>
+                </div>
+
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mb-md-0 mb-4">
+                  <!-- Links -->
+                  <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                  <p><i class="fas fa-home me-3 text-secondary"></i> 117545 Singapore</p>
+                  <p>
+                    <i class="fas fa-envelope me-3 text-secondary"></i>
+                    micsafety@nus.edu.sg
+                  </p>
+
+                </div>
+              </div>
+            </div>
+          </section>
+
+
+          <!-- Copyright -->
+          <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+            © 2023 NUS Department Microbiology & Immunology
+          </div>
+        </footer>
+      </body>
+</html>
